@@ -17,6 +17,7 @@ public class TextPanel extends JPanel {
 		add(area, BorderLayout.CENTER);
 		toolbar = new Toolbar();
 		add(toolbar, BorderLayout.SOUTH);
+		toolbar.setTextArea(area);
 	}
 
 }
